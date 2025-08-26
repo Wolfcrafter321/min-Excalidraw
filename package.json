@@ -4,6 +4,8 @@
   "description": "for build",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "test": "echo \"hi\" && exit 1"
   },
   "author": "",
@@ -11,6 +13,7 @@
   "dependencies": {
     "@excalidraw/excalidraw": "^0.18.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vite": "^7.1.3"
   }
 }
