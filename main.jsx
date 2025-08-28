@@ -21,26 +21,30 @@ function App() {
     <div style={{ height: "100vh" }}>
       {scene &&
         (<Excalidraw
-        initialData={scene}
-        viewModeEnabled={true}
-        zenModeEnabled={true}
-        gridModeEnabled={false}
-        UIOptions={{
-            canvasActions: {
-                changeViewBackgroundColor: false,
-                clearCanvas: false,
-                export: false,
-                exportSelection: false,
-                saveToActiveFile: false,
-                saveAsImage: false,
-                saveAsScene: false,
-                loadScene: false,
-                toggleGridMode: false,
-                toggleZenMode: false,
 
-                canvasActions: false
-            },
-        }}
+          initialData={
+            scene
+          }
+          viewModeEnabled={true}
+          zenModeEnabled={true}
+          gridModeEnabled={true}
+          UIOptions={{
+              canvasActions: {
+                  changeViewBackgroundColor: false,
+                  clearCanvas: false,
+                  export: false,
+                  exportSelection: false,
+                  saveToActiveFile: false,
+                  saveAsImage: false,
+                  saveAsScene: false,
+                  loadScene: false,
+                  toggleGridMode: false,
+                  toggleZenMode: false,
+
+                  canvasActions: false
+              },
+          }}
+
       />)
       }
     </div>
