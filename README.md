@@ -1,6 +1,6 @@
 # 📝 min-Excalidraw
 
-![Excalidraw Logo](https://raw.githubusercontent.com/excalidraw/excalidraw/master/public/logo192.png)
+![Excalidraw Logo](https://github.com/excalidraw/excalidraw/blob/master/dev-docs/static/img/logo.svg)
 
 ## 概要
 
@@ -9,6 +9,7 @@
 - **React + Vite** で構築
 - Excalidrawの描画・読み込み専用表示が可能
 - 公式パッケージのみ利用、シンプルな構成
+- 表示ページと同階層のExcalidrawファイルを表示
 
 ## 使い方
 
@@ -17,9 +18,18 @@
 3. `npm run dev`
 4. ブラウザで `http://localhost:5173` を開く
 
+1. リポジトリをクローン
+2. `npm install`
+3. `npm run build`
+4. ウェブサーバーに、出力されたdist内ファイルをアップロード
+5. Excalidrawファイルを編集
+6. 必要に応じ、main.jsxのEXCALIDRAW_FILEを編集
+7. ブラウザでウェブページにアクセス
+
 ## サンプル画面
 
-<!-- ![Excalidraw Sample](https://user-images.githubusercontent.com/31001505/88478436-7e2b6c80-cf7e-11ea-9e7e-2b6e6b7b6e6e.png) -->
+tbd
+![Excalidraw Sample](https://github.com/Wolfcrafter321/min-Excalidraw/screenshot.png)
 
 ---
 
