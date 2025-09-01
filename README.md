@@ -12,20 +12,20 @@
 - 公式パッケージのみ利用、シンプルな構成
 - 表示ページと同階層のExcalidrawファイルを表示
 
-## 使い方
+## 使い方 - dev
 
 1. リポジトリをクローン
 2. `npm install`
 3. `npm run dev`
 4. ブラウザで `http://localhost:5173` を開く
 
-1. リポジトリをクローン
-2. `npm install`
+## 使い方 - Build
+
+1. Excalidrawファイルを編集
+2. 必要に応じ、main.jsxのEXCALIDRAW_FILEを編集
 3. `npm run build`
 4. ウェブサーバーに、出力されたdist内ファイルをアップロード
-5. Excalidrawファイルを編集
-6. 必要に応じ、main.jsxのEXCALIDRAW_FILEを編集
-7. ブラウザでウェブページにアクセス
+5. ブラウザでウェブページにアクセス
 
 ## サンプル画面
 
