@@ -1,6 +1,7 @@
 # 📝 min-Excalidraw
 
-![Excalidraw Logo](https://github.com/excalidraw/excalidraw/blob/master/dev-docs/static/img/logo.svg)
+<img src="https://github.com/excalidraw/excalidraw/blob/master/dev-docs/static/img/logo.svg" width="150" alt="Excalidraw Logo">
+
 
 ## 概要
 
@@ -28,8 +29,7 @@
 
 ## サンプル画面
 
-tbd
-![Excalidraw Sample](https://github.com/Wolfcrafter321/min-Excalidraw/screenshot.png)
+![Excalidraw Sample](https://github.com/Wolfcrafter321/min-Excalidraw/blob/main/screenshot.png)
 
 ---
 
