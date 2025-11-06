@@ -32,7 +32,7 @@ function App({ fileUrl }) {
 
 
   return (
-    <div style={{ height: "300px" }}>
+    <div style={{ height: "100%" }}>
       {scene &&
         (<Excalidraw
 
